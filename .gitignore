@@ -36,3 +36,17 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+ Eclipse
+
+.settings/
+
+# Intellij
+.idea/
+
+
+# Mac
+
+
+# Maven
+log/
