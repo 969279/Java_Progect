@@ -1,10 +1,7 @@
 //1. Напишите метод, который принимает на вход строку (String) и определяет
 // является ли строка палиндромом (возвращает boolean значение).
-
 package lesson2;
-
 import java.util.Scanner;
-
 public class Task1 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -13,7 +10,6 @@ public class Task1 {
         //String text = "qwerttrewq";
         System.out.println(stringPalindrome(massageStr));
     }
-
     private static boolean stringPalindrome(String text) {
 
         StringBuilder backStr = new StringBuilder();
@@ -23,7 +19,5 @@ public class Task1 {
             backStr.append(tempStr[i]);
         }
         return (backStr.toString()).equals(cleanStr);
-
     }
-
 }
