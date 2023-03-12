@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson2 init commit" />
+    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson2 Task2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson2/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file/Task2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file/lesson2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/Task2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +25,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2022c36f-9197-4ed2-a699-24a16f26cf83" />
+        <option name="url" value="https://github.com/969279/Java_Progect.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,7 +65,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexandr/Desktop/JavaProgect/Java&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexandr/Desktop/JavaProgect/java-practic020323&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,7 +84,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678122262907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="lesson2 init commit">
+      <created>1678201780620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678201780620</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lesson2 init commit">
+      <created>1678201928179</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678201928179</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lesson2 init commit">
+      <created>1678202321920</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678202321920</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lesson2 Task2">
+      <created>1678444617854</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678444617854</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,7 +126,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/lesson2" />
                       </list>
                     </value>
                   </entry>
@@ -87,6 +140,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="lesson2 homework2" />
+    <MESSAGE value="lesson2 init commit" />
+    <MESSAGE value="lesson2 Task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson2 Task2" />
   </component>
 </project>
