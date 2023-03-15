@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson3 start commit">
+    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson4 init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/Task2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,7 +61,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Alexandr/Desktop/JavaProgect/java-practic/java-practic3/java-practic020323"
+    "last_opened_file_path": "C:/Users/Alexandr/Desktop/JavaProgect/javaPractic/java-practic3"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -124,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678726302055</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lesson4 init commit">
+      <created>1678876033569</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678876033569</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,7 +143,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/lesson3" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -157,6 +162,7 @@
     <MESSAGE value="lesson2 Task2" />
     <MESSAGE value="lesson3 init commit" />
     <MESSAGE value="lesson3 start commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson3 start commit" />
+    <MESSAGE value="lesson4 init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson4 init commit" />
   </component>
 </project>
