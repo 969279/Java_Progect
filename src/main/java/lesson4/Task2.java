@@ -9,8 +9,7 @@ public class Task2 {
     public static void main(String[] args) {
 
         List<String> words = List.of("1", "two", "3", "4", "five", "6", "7", "8");
-        LinkedList<String> textList = new LinkedList<>();
-        textList.addAll(words);
+        LinkedList<String> textList = new LinkedList<>(words);
         System.out.println("Исходный список: " + textList);
         System.out.println("Метод 1: " + reversListOne(textList));
         System.out.println("Метод 2: " + reversListTwo(textList));
