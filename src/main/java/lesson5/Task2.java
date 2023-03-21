@@ -4,13 +4,11 @@
 
 package lesson5;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Task2 {
     public static void main(String[] args) {
 
-        Map<String, String> mapNameList = new HashMap<>();
         String nameList = "Иван Иванов " +
                 "Светлана Петрова " +
                 "Кристина Белова " +
@@ -29,55 +27,52 @@ public class Task2 {
                 "Иван Мечников " +
                 "Петр Петин " +
                 "Иван Ежов ";
-
         String[] listNameSurname = nameList.split(" ");
-
-        for (int i = 0; i < listNameSurname.length; i += 2){
-            mapNameList.put(listNameSurname[i + 1], listNameSurname[i]);
-        }
-        for (Map.Entry<String, String> ent : mapNameList.entrySet()) {
-            System.out.println(ent.getKey() + " " + ent.getValue());
-        }
-
-        //System.out.println(mapNameList.values());
-//
-//         {
-//
-//        }
-//
-//
-
-
-
-
-
-
-
-//        Map<String, Integer> nameMap = new HashMap<>();
-//        for (int i = 0; i < listNameSurname.length; i += 2) {
-//            if (nameMap.containsKey(listNameSurname[i])) {
-//                nameMap.replace(listNameSurname[i], nameMap.get(listNameSurname[i]) + 1);
-//            } else {
-//                nameMap.put(listNameSurname[i], 1);
-//            }
-//        }
-//        System.out.println(nameMap);
-//
-//        Map<String, Integer> sortedNameMap = new HashMap<>();
-//        int max = 1;
-//        for (int value : nameMap.values()) {
-//            if (value > max) {
-//                max = value;
-//            }
-//        }
-//        for (int i = max; i > 0; i--) {
-//            for (Map.Entry<String, Integer> entry : nameMap.entrySet()) {
-//                String key = entry.getKey();
-//                if (nameMap.get(key) == i) {
-//                    sortedNameMap.put(key, nameMap.get(key));
-//                }
-//            }
-//        }
-//        System.out.println(sortedNameMap);
+        //createMapNameList(listNameSurname);
+        Map<String, Integer> quantityName;
+        quantityName = quantitySortedNameMap(listNameSurname);
+        printMapNameList(quantityName);
+        System.out.println();
+        printMapNameList(sortByValue(quantityName));
     }
+
+    private static Map<String, Integer> quantitySortedNameMap(String[] nameList) {
+        Map<String, Integer> quantityName = new HashMap<>();
+        for (int i = 0; i < nameList.length; i += 2) {
+            if (quantityName.containsKey(nameList[i])) {
+                quantityName.replace(nameList[i], quantityName.get(nameList[i]) + 1);
+            } else {
+                quantityName.put(nameList[i], 1);
+            }
+        }
+        return quantityName;
+    }
+
+    private static void printMapNameList(Map<String, Integer> mapList) {
+
+        for (Map.Entry<String, Integer> entryList : mapList.entrySet()) {
+            System.out.println(entryList.getKey() + " -> " + entryList.getValue());
+        }
+    }
+
+    public static <K, V extends Comparable<? super V>> Map<K, V> sortByValue(Map<K, V> map) {
+        List<Map.Entry<K, V>> list = new ArrayList<>(map.entrySet());
+        list.sort(Map.Entry.comparingByValue(Comparator.reverseOrder()));
+        Map<K, V> result = new LinkedHashMap<>();
+        for (Map.Entry<K, V> entry : list) {
+            result.put(entry.getKey(), entry.getValue());
+        }
+        return result;
+    }
+
+    private static Map<String, String> createMapNameList(String[] strNameSurname) {
+
+        Map<String, String> mapNameList = new HashMap<>();
+        for (int i = 0; i < strNameSurname.length; i += 2) {
+            mapNameList.put(strNameSurname[i + 1], strNameSurname[i]);
+        }
+        System.out.println(mapNameList);
+        return mapNameList;
+    }
+
 }
