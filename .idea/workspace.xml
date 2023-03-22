@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson4 result commit" />
+    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson5 Task1 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson5/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson5/Task2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,13 +57,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Alexandr/Desktop/JavaProgect/JavaProgect"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Alexandr/Desktop/JavaProgect/JavaProgect&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -133,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678897801973</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson5 init commit">
+      <created>1679298598464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679298598464</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson5 Task1 commit">
+      <created>1679385224422</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679385224422</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +185,8 @@
     <MESSAGE value="lesson3 start commit" />
     <MESSAGE value="lesson4 init commit" />
     <MESSAGE value="lesson4 Task2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4 Task2 commit" />
+    <MESSAGE value="lesson5 init commit" />
+    <MESSAGE value="lesson5 Task1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5 Task1 commit" />
   </component>
 </project>
