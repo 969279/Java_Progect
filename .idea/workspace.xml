@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson5 result commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Task1.java" afterDir="false" />
+    <list default="true" id="a12cac25-7cf0-4a7e-942e-53cf1f676cb1" name="Changes" comment="lesson6 Task1 commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson6/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson6/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson5" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679385224422</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson6 init commit">
+      <created>1679593091843</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679593091843</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson6 Task1 commit">
+      <created>1679736373384</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679736373384</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +203,8 @@
     <MESSAGE value="lesson4 Task2 commit" />
     <MESSAGE value="lesson5 init commit" />
     <MESSAGE value="lesson5 Task1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson5 Task1 commit" />
+    <MESSAGE value="lesson6 init commit" />
+    <MESSAGE value="lesson6 Task1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson6 Task1 commit" />
   </component>
 </project>

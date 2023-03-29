@@ -1,77 +1,53 @@
 package lesson6;
 
 public class Laptop {
-    String name;
-    int IMEI;
     String brand;
-    int memory;
-    double display;
+    String name;
+    String display;
     String cpu;
-    int prise;
+    int hdd;
+    int ram;
 
+    public Laptop( String brand, String name, String display, String cpu, int hdd, int ram) {
+        this.brand = brand;
+        this.name = name;
+        this.display = display;
+        this.cpu = cpu;
+        this.hdd = hdd;
+        this.ram = ram;
+    }
     @Override
     public String toString() {
-        return "Ноутбук: " + brand + '\n' + name + display;
-
+        return  "Ноутбук: " +
+                brand + ", " +
+                name + ", " +
+                "монитор: " + display + ", " +
+                cpu + ", " +
+                hdd + "ГБ, " +
+                ram + "ГБ;";
     }
 
-    public void showInfo() {
-        System.out.println(this);
-    }
+    public String getName() { return name; }
 
-    public String getName() {
-        return name;
-    }
+    public void setName(String name) { this.name = name;  }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public String getBrand() {  return brand;  }
 
-    public int getIMEI() {
-        return IMEI;
-    }
+    public void setBrand(String brand) { this.brand = brand;  }
 
-    public void setIMEI(int IMEI) {
-        this.IMEI = IMEI;
-    }
+    public String getDisplay() { return display;  }
 
-    public String getBrand() {
-        return brand;
-    }
+    public void setDisplay(String display) { this.display = display;  }
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
+    public String getCpu() { return cpu;  }
 
-    public int getMemory() {
-        return memory;
-    }
+    public void setCpu(String cpu) { this.cpu = cpu;  }
 
-    public void setMemory(int memory) {
-        this.memory = memory;
-    }
+    public int getHdd() { return hdd;  }
 
-    public double getDisplay() {
-        return display;
-    }
+    public void setHdd(int hdd) { this.hdd = hdd;  }
 
-    public void setDisplay(double display) {
-        this.display = display;
-    }
+    public int getRam() { return ram;  }
 
-    public String getCpu() {
-        return cpu;
-    }
-
-    public void setCpu(String cpu) {
-        this.cpu = cpu;
-    }
-
-    public int getPrise() {
-        return prise;
-    }
-
-    public void setPrise(int prise) {
-        this.prise = prise;
-    }
+    public void setRam(int ram) {  this.ram = ram;  }
 }
